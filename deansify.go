@@ -12,7 +12,7 @@ import (
 )
 
 var version = "0.0.2"
-var ansiRegexp = regexp.MustCompile("\x1b[^m]*m")
+var ansiRegexp = regexp.MustCompile("\x1b[[:digit:];]*[^[:digit:]]")
 
 func stripAnsi(s string) string {
 	return ansiRegexp.ReplaceAllLiteralString(s, "")
