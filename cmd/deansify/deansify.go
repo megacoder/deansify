@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/dpritchett/deansify"
+	"github.com/megacoder/deansify"
 )
 
 func main() {
