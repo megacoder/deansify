@@ -6,3 +6,6 @@
 *.dylib
 *.test
 *.out
+deansify.darwin.gz
+deansify.linux.gz
+deansify.windows.zip
